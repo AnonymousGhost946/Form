@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login Form</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <form id="login-form">
+    <div class="headings">
+      <h2>Anonymous</h2>
+      <h4>Welcome back!</h4>
+      <h6>Login to your account</h6>
+    </div>
+    <div id="input">
+      <input class="input" type="text" placeholder="Username" required>
+      <input class="input" type="password" placeholder="Password" required>
+      <div class="forgot-password"><a href="#">Forgot password?</a></div>
+    </div>
+    <button type="button" class="button" id="btn-submit">
+      <span class="button-text">Login</span>
+      <div class="btn-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </button>
+    <div class="signup-link">
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </form>
+ <script src="form-script.js"></script>
+</body>
+</html>
